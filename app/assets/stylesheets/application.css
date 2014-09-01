@@ -100,7 +100,8 @@ h2 {
 
 a.delete {
   color: #777777;
-  float: right;
+  float: left;
+  margin-left: 20px;
 }
 
 header {
@@ -244,6 +245,7 @@ input[type='submit'] {
   font-weight: 500;
   color: white;
   cursor: pointer;
+  float:left;
 }
 
 footer {

@@ -29,6 +29,7 @@ unless isEditing
 
 		p
 			input type='submit' value='Save Changes' click='saveChanges'
+			a.delete href='#' click="delete" delete
 			if showUnsavedMessage
 				.unsaved unsaved changes
 			if isSaving
